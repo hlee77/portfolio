@@ -39,7 +39,7 @@ elif page == 'Projects':
     st.title('My Projects')
     st.write(" ")
     st.subheader(":green[Product Categorization Model Using Texts & Images] [link](https://github.com/hlee77/capstone-4/tree/main)")
-    st.image("image/capstone.jpg", width= 400)
+    st.image("image/capstone.jpg", width= 100)
     st.caption("img src: kozzi.com")
     st.write("""
     - Created image/text classification model \n
