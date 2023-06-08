@@ -1,12 +1,8 @@
 import streamlit as st
 import pandas as pd
-import pickle
 import numpy as np
 import base64
 import time
-import tensorflow as tf
-from tensorflow.keras.utils import img_to_array, load_img
-from tensorflow import keras
 import io
 from PIL import ImageOps, Image
 
