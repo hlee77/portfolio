@@ -39,7 +39,7 @@ elif page == 'Projects':
     st.title('My Projects')
     st.write(" ")
     st.subheader(":green[Product Categorization Model Using Texts & Images] [link](https://github.com/hlee77/capstone-4/tree/main)")
-    st.image("image/capstone.JPG", width= 300)
+    st.image("image/capstone.JPG", width= 400)
     st.caption("img src: kozzi.com")
     st.write("""
     - Created image/text classification model \n
@@ -51,7 +51,7 @@ elif page == 'Projects':
     st.write(" ")
     
     st.subheader(":green[Mental Health and Crimes (Group)] [link](https://github.com/ritzba/chicago-crime-mental-health)")
-    st.image("image/groupproject.JPG", width= 300)
+    st.image("image/groupproject.JPG", width= 400)
     st.write("""
     - Analyzed Social Impacts Using Machine Learning
     - Analyzed & Predicted the relationship between mental health and crimes using data from Chicago incarceration data & mental health clinic
@@ -59,7 +59,7 @@ elif page == 'Projects':
     st.write(" ")
 
     st.subheader(":green[Web APIs & NLP of Reddit.com]")
-    st.image("image/redditproject.JPG", width= 300) 
+    st.image("image/redditproject.JPG", width= 400) 
     st.write("""
     - Analyzed Reddit posts using web API & NLP \n
     - Analyzed & Predicted classification of postings of reddit.com \n
@@ -72,7 +72,7 @@ elif page == 'Projects':
     st.write(" ")
 
     st.subheader(":green[Housing Price Prediction Model]")
-    st.image("image/housingprice.JPG", width= 300)
+    st.image("image/housingprice.JPG", width= 400)
     st.write("""
     - Analyzed housing features affecting sale price and predicted housing price \n
     - Created and Refined Regression model which provides business insights
