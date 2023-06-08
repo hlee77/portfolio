@@ -24,7 +24,7 @@ if page == 'About Me':
     # st.caption("img src: Copyright Kozzi.com")
 
 elif page == 'Skills':
-    st.title('My Skills')
+    st.title(':orange[HYE LEE] Skills')
     st.write("""
     - Programming (Python - Numpy | Scikit-Learn | Pandas | Keras | R) \n
     - Database (PSQL) | NLP | web scraping (API | json | Beautiful soup | selenium)
@@ -36,7 +36,7 @@ elif page == 'Skills':
     st.caption("img src: https://ichemeblog.org/")
 
 elif page == 'Projects':
-    st.title('My Projects')
+    st.title(':orange[HYE LEE] Projects')
     st.write(" ")
     st.subheader(":green[Product Categorization Model Using Texts & Images] [link](https://github.com/hlee77/capstone-4/tree/main)")
     st.image("image/capstone.JPG", width= 400)
@@ -84,7 +84,7 @@ elif page == 'Projects':
 
 
 elif page =='Contact':
-    st.title("Contact Me")
+    st.title("Contact :orange[HYE LEE]")
     st.write("GitHub : github.com/hlee77 [link](https://github.com/hlee77)")
     st.write("LinkedIn: linkedin.com/in/hyelee7 [link](linkedin.com/in/hyelee7)")
     st.write("email : hyelee777777@gmail.com [link](hyelee777777@gmail.com)")
