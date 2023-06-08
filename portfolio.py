@@ -15,7 +15,7 @@ page = st.sidebar.selectbox(
 if page == 'About Me':
     # st.markdown('<p class="font"> HYE LEE Portfolio </p>', unsafe_allow_html=True)
     st.title(':orange[HYE LEE] Portfolio')
-    st.subheader('Data Scientist & Math Lecturer')
+    st.subheader(':green[Data Scientist & Math Lecturer]')
     st.write("""
     - Capable of implementing data engineering, analyzing, and visualizing
     - Specialized in Python machine learning and regression analysis with mathematics and marketing background
@@ -37,7 +37,10 @@ elif page == 'Skills':
 
 elif page == 'Projects':
     st.title('My Projects')
-    st.subheader("Product Categorization Based on Product Details & Images [link](https://github.com/hlee77/capstone-4/tree/main)")
+    st.write(" ")
+    st.subheader(":green[Product Categorization Model Using Texts & Images] [link](https://github.com/hlee77/capstone-4/tree/main)")
+    st.image("image/capstone.jpg", width= 400)
+    st.caption("img src: kozzi.com")
     st.write("""
     - Created image/text classification model \n
     - Obtained data from eBay using web API & web scraping and preprocessed data using NLP \n
@@ -45,17 +48,18 @@ elif page == 'Projects':
     - Processed and analyzed text data using k-nearest neighbor, random Forests, logistic regression models and found the best model using grid search \n
     - Created product-categorization web app using streamlit [link](https://hlee77-capstone-4-text-img-classifier-xzr8hd.streamlit.app/)
     """)
-    st.image("image/capstone.jpg", width= 400)
-    st.caption("img src: kozzi.com")
+    st.write(" ")
     
-    st.subheader("Mental Health and Crimes (Group) [link](https://github.com/ritzba/chicago-crime-mental-health)")
+    st.subheader(":green[Mental Health and Crimes (Group)] [link](https://github.com/ritzba/chicago-crime-mental-health)")
+    st.image("image/groupproject.jpg", width= 400)
     st.write("""
     - Analyzed Social Impacts Using Machine Learning
     - Analyzed & Predicted the relationship between mental health and crimes using data from Chicago incarceration data & mental health clinic
     """)
-    st.image("image/groupproject.jpg", width= 400)
+    st.write(" ")
 
-    st.subheader("Web APIs & NLP of Reddit.com")
+    st.subheader(":green[Web APIs & NLP of Reddit.com]")
+    st.image("image/redditproject.jpg", width= 400) 
     st.write("""
     - Analyzed Reddit posts using web API & NLP \n
     - Analyzed & Predicted classification of postings of reddit.com \n
@@ -65,16 +69,17 @@ elif page == 'Projects':
     - Found the best model using Grid Search \n
     - Analyzed Social Impacts Using Machine Learning
     """) 
-    st.image("image/redditproject.jpg", width= 400) 
+    st.write(" ")
 
-    st.subheader("Housing Price Prediction")
+    st.subheader(":green[Housing Price Prediction Model]")
+    st.image("image/housingprice.jpg", width= 400)
     st.write("""
     - Analyzed housing features affecting sale price and predicted housing price \n
     - Created and Refined Regression model which provides business insights
     """) 
-    st.image("image/housingprice.jpg", width= 400)
+    st.write(" ")
 
-    st.subheader("Standardized Test Analysis")
+    st.subheader(":green[Standardized Test Analysis]")
     st.write("- Analyzed the effectiveness of standardized test (SAT/ACT)") 
 
 
